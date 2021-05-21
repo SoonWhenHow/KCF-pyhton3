@@ -1,5 +1,5 @@
 # KCF
-python implementation of "high-speed tracking with kernelized correlation filters"
+Paper "high-speed tracking with kernelized correlation filters"
 ### Introduction
-This is a python implementation of KCF tracker.
-The main purpose of this project is to help you understand KCF pipeline, so the details are not exactly the same as the paper.
+This is a python3 implementation of KCF tracker.
+The implementation include a scale pool with three parameters which help the tracker to solve the problem of the scale change of target.
